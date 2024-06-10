@@ -1,4 +1,3 @@
-# src/parser.py
 
 from src.vacancy import Vacancy
 

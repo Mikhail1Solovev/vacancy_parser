@@ -1,5 +1,3 @@
-# src/vacancy.py
-
 class Vacancy:
     def __init__(self, id, name, salary, city, street, description):
         """

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_65dc810950aaecf26603d0d523ba87e8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-ant-path@1.1.2/dist/leaflet-ant-path.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_65dc810950aaecf26603d0d523ba87e8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_65dc810950aaecf26603d0d523ba87e8 = L.map(
+                "map_65dc810950aaecf26603d0d523ba87e8",
+                {
+                    center: [43.9, 42.7],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2197c61335bf9542001f91815e228e3f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2197c61335bf9542001f91815e228e3f.addTo(map_65dc810950aaecf26603d0d523ba87e8);
+        
+    
+            var marker_baf182741215746455b140700742ee2e = L.marker(
+                [44.04861, 42.86056],
+                {}
+            ).addTo(map_65dc810950aaecf26603d0d523ba87e8);
+        
+    
+        var popup_fb0c2dab95b9f65266f2b3275f684c90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfaaae70ebda515c7b10e359cd80d507 = $(`<div id="html_dfaaae70ebda515c7b10e359cd80d507" style="width: 100.0%; height: 100.0%;">1. Ессентуки (0 ч)</div>`)[0];
+                popup_fb0c2dab95b9f65266f2b3275f684c90.setContent(html_dfaaae70ebda515c7b10e359cd80d507);
+            
+        
+
+        marker_baf182741215746455b140700742ee2e.bindPopup(popup_fb0c2dab95b9f65266f2b3275f684c90)
+        ;
+
+        
+    
+    
+            marker_baf182741215746455b140700742ee2e.bindTooltip(
+                `<div>
+                     1. Ессентуки
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_109280fd500add666b1920132ffcb470 = L.marker(
+                [44.0425, 43.0575],
+                {}
+            ).addTo(map_65dc810950aaecf26603d0d523ba87e8);
+        
+    
+        var popup_ce084b317833a085c1dd3a33b76c5593 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d4aedad9d9a81ed7c7ecfc816168ad2 = $(`<div id="html_2d4aedad9d9a81ed7c7ecfc816168ad2" style="width: 100.0%; height: 100.0%;">2. Гора Машук (1 ч)</div>`)[0];
+                popup_ce084b317833a085c1dd3a33b76c5593.setContent(html_2d4aedad9d9a81ed7c7ecfc816168ad2);
+            
+        
+
+        marker_109280fd500add666b1920132ffcb470.bindPopup(popup_ce084b317833a085c1dd3a33b76c5593)
+        ;
+
+        
+    
+    
+            marker_109280fd500add666b1920132ffcb470.bindTooltip(
+                `<div>
+                     2. Гора Машук
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_811608303b43df1348a89b2a50c625c1 = L.marker(
+                [43.4581, 42.6183],
+                {}
+            ).addTo(map_65dc810950aaecf26603d0d523ba87e8);
+        
+    
+        var popup_c8acc6c788865be2ec769dac0a30b69b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a33d7c3d065d086470e7d39e83695eaf = $(`<div id="html_a33d7c3d065d086470e7d39e83695eaf" style="width: 100.0%; height: 100.0%;">3. Озеро Гижгит (2.5 ч)</div>`)[0];
+                popup_c8acc6c788865be2ec769dac0a30b69b.setContent(html_a33d7c3d065d086470e7d39e83695eaf);
+            
+        
+
+        marker_811608303b43df1348a89b2a50c625c1.bindPopup(popup_c8acc6c788865be2ec769dac0a30b69b)
+        ;
+
+        
+    
+    
+            marker_811608303b43df1348a89b2a50c625c1.bindTooltip(
+                `<div>
+                     3. Озеро Гижгит
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c92aa2b23eb9fd30dff71f322849cf5 = L.marker(
+                [43.688, 42.709],
+                {}
+            ).addTo(map_65dc810950aaecf26603d0d523ba87e8);
+        
+    
+        var popup_8765ec6cc41d1631826b6920f60c4c39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7df392e190b7707bbaa088e7943f695 = $(`<div id="html_c7df392e190b7707bbaa088e7943f695" style="width: 100.0%; height: 100.0%;">4. Плато Шатджатмаз (4 ч)</div>`)[0];
+                popup_8765ec6cc41d1631826b6920f60c4c39.setContent(html_c7df392e190b7707bbaa088e7943f695);
+            
+        
+
+        marker_3c92aa2b23eb9fd30dff71f322849cf5.bindPopup(popup_8765ec6cc41d1631826b6920f60c4c39)
+        ;
+
+        
+    
+    
+            marker_3c92aa2b23eb9fd30dff71f322849cf5.bindTooltip(
+                `<div>
+                     4. Плато Шатджатмаз
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e9600139f77a5045d5823bca99f6a8b = L.marker(
+                [43.316, 43.204],
+                {}
+            ).addTo(map_65dc810950aaecf26603d0d523ba87e8);
+        
+    
+        var popup_0f8164add355ee5d7aa9f1c1b52e2e92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06687d7a5ce7e214f6d149e6bdb0d109 = $(`<div id="html_06687d7a5ce7e214f6d149e6bdb0d109" style="width: 100.0%; height: 100.0%;">5. Чегемское ущелье и водопады (6 ч)</div>`)[0];
+                popup_0f8164add355ee5d7aa9f1c1b52e2e92.setContent(html_06687d7a5ce7e214f6d149e6bdb0d109);
+            
+        
+
+        marker_9e9600139f77a5045d5823bca99f6a8b.bindPopup(popup_0f8164add355ee5d7aa9f1c1b52e2e92)
+        ;
+
+        
+    
+    
+            marker_9e9600139f77a5045d5823bca99f6a8b.bindTooltip(
+                `<div>
+                     5. Чегемское ущелье и водопады
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0dc25efc20d0e8a92e3155a48b7cd4f3 = L.marker(
+                [43.25, 42.7],
+                {}
+            ).addTo(map_65dc810950aaecf26603d0d523ba87e8);
+        
+    
+        var popup_45e8124abefd7381d79a7dbbad406ddf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7fc01b6dfd160a857705b39abf59d55 = $(`<div id="html_e7fc01b6dfd160a857705b39abf59d55" style="width: 100.0%; height: 100.0%;">6. Водопад Девичьи Слезы (7 ч)</div>`)[0];
+                popup_45e8124abefd7381d79a7dbbad406ddf.setContent(html_e7fc01b6dfd160a857705b39abf59d55);
+            
+        
+
+        marker_0dc25efc20d0e8a92e3155a48b7cd4f3.bindPopup(popup_45e8124abefd7381d79a7dbbad406ddf)
+        ;
+
+        
+    
+    
+            marker_0dc25efc20d0e8a92e3155a48b7cd4f3.bindTooltip(
+                `<div>
+                     6. Водопад Девичьи Слезы
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_204765f48d80acfbe3017e1fa731ef81 = L.marker(
+                [43.2426, 42.51],
+                {}
+            ).addTo(map_65dc810950aaecf26603d0d523ba87e8);
+        
+    
+        var popup_48f6537deb9c354e3d5b6be2ba5c3988 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45ae678bcff8609a18612a9c4facfb66 = $(`<div id="html_45ae678bcff8609a18612a9c4facfb66" style="width: 100.0%; height: 100.0%;">7. Водопад Терскол (7.5 ч)</div>`)[0];
+                popup_48f6537deb9c354e3d5b6be2ba5c3988.setContent(html_45ae678bcff8609a18612a9c4facfb66);
+            
+        
+
+        marker_204765f48d80acfbe3017e1fa731ef81.bindPopup(popup_48f6537deb9c354e3d5b6be2ba5c3988)
+        ;
+
+        
+    
+    
+            marker_204765f48d80acfbe3017e1fa731ef81.bindTooltip(
+                `<div>
+                     7. Водопад Терскол
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bb0c074b16e8ef6e449051e90d6110d = L.marker(
+                [43.03667, 44.66778],
+                {}
+            ).addTo(map_65dc810950aaecf26603d0d523ba87e8);
+        
+    
+        var popup_d5dee35bd210e8cb28575ce56985c6c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34b0af3831ca0370a87703728a4aa863 = $(`<div id="html_34b0af3831ca0370a87703728a4aa863" style="width: 100.0%; height: 100.0%;">8. Владикавказ (10 ч)</div>`)[0];
+                popup_d5dee35bd210e8cb28575ce56985c6c0.setContent(html_34b0af3831ca0370a87703728a4aa863);
+            
+        
+
+        marker_4bb0c074b16e8ef6e449051e90d6110d.bindPopup(popup_d5dee35bd210e8cb28575ce56985c6c0)
+        ;
+
+        
+    
+    
+            marker_4bb0c074b16e8ef6e449051e90d6110d.bindTooltip(
+                `<div>
+                     8. Владикавказ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9cb665aaa869163527c474d77cab82a = L.marker(
+                [42.9833, 44.6833],
+                {}
+            ).addTo(map_65dc810950aaecf26603d0d523ba87e8);
+        
+    
+        var popup_12e0d0116af7ba71266a47d0864f28e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e271c52304b527cd4679bffcea97c86 = $(`<div id="html_0e271c52304b527cd4679bffcea97c86" style="width: 100.0%; height: 100.0%;">9. Памятник Уастырджи (10.5 ч)</div>`)[0];
+                popup_12e0d0116af7ba71266a47d0864f28e4.setContent(html_0e271c52304b527cd4679bffcea97c86);
+            
+        
+
+        marker_e9cb665aaa869163527c474d77cab82a.bindPopup(popup_12e0d0116af7ba71266a47d0864f28e4)
+        ;
+
+        
+    
+    
+            marker_e9cb665aaa869163527c474d77cab82a.bindTooltip(
+                `<div>
+                     9. Памятник Уастырджи
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b6d5e547b492fb16628eca42d136408 = L.marker(
+                [43.03, 44.43],
+                {}
+            ).addTo(map_65dc810950aaecf26603d0d523ba87e8);
+        
+    
+        var popup_7d49791d716130eac7d0374500cc1b1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52efd4c09b0aabebc3456e83293b0706 = $(`<div id="html_52efd4c09b0aabebc3456e83293b0706" style="width: 100.0%; height: 100.0%;">10. Водохранилище (11.5 ч)</div>`)[0];
+                popup_7d49791d716130eac7d0374500cc1b1f.setContent(html_52efd4c09b0aabebc3456e83293b0706);
+            
+        
+
+        marker_8b6d5e547b492fb16628eca42d136408.bindPopup(popup_7d49791d716130eac7d0374500cc1b1f)
+        ;
+
+        
+    
+    
+            marker_8b6d5e547b492fb16628eca42d136408.bindTooltip(
+                `<div>
+                     10. Водохранилище
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe7f30850cd9edadf3a01b7ab36141e0 = L.marker(
+                [44.04861, 42.86056],
+                {}
+            ).addTo(map_65dc810950aaecf26603d0d523ba87e8);
+        
+    
+        var popup_fc25d36a275d2ebd7f23c2b8a9fe8c9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3ec5d577b8874a4b122c075b2a43ed6 = $(`<div id="html_e3ec5d577b8874a4b122c075b2a43ed6" style="width: 100.0%; height: 100.0%;">11. Ессентуки (13.5 ч)</div>`)[0];
+                popup_fc25d36a275d2ebd7f23c2b8a9fe8c9d.setContent(html_e3ec5d577b8874a4b122c075b2a43ed6);
+            
+        
+
+        marker_fe7f30850cd9edadf3a01b7ab36141e0.bindPopup(popup_fc25d36a275d2ebd7f23c2b8a9fe8c9d)
+        ;
+
+        
+    
+    
+            marker_fe7f30850cd9edadf3a01b7ab36141e0.bindTooltip(
+                `<div>
+                     11. Ессентуки
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            ant_path_8125b3d13fbe36f27224ac50a266b90e = L.polyline.antPath(
+              [[44.04861, 42.86056], [44.0425, 43.0575], [43.4581, 42.6183], [43.688, 42.709], [43.316, 43.204], [43.25, 42.7], [43.2426, 42.51], [43.03667, 44.66778], [42.9833, 44.6833], [43.03, 44.43], [44.04861, 42.86056]],
+              {"bubblingMouseEvents": true, "color": "blue", "dashArray": [10, 20], "dashOffset": null, "delay": 400, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "hardwareAcceleration": false, "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "paused": false, "pulseColor": "#FFFFFF", "reverse": false, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+        ).addTo(map_65dc810950aaecf26603d0d523ba87e8);
+        
+</script>
+</html>
